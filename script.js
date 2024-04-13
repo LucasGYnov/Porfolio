@@ -60,14 +60,8 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       }, 50);
     }
 
-const cursor = document.querySelector('.cursor');
-document.addEventListener('mousemove', (e) => {
-   cursor.style.left = e.pageX + 'px';
-   cursor.style.top = e.pageY + 'px';
-});
-
 function playSound() {
-  var audio = document.getElementById("son");
+  var audio = document.getElementById("my-name-is-sound");
   audio.play();
 }
 
