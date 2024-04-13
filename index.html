@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head> <!-- VERIFIE -->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap">
+
+      <title>Portfolio menu page</title>
+      <meta name="description" content="Portfolio project"/>
+      <meta name="keywords" content="portfolio, projet"/>
+      <meta name="author" content="Lucas Gerard" />
+      <meta name="copyright" content="Copyright owner" />
+      <link rel ="icon" href = "/public/logo.jpg" type = "image/x-icon">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="mediaqueries.css">
+   </head>
+
+   <body>
+      <nav id="nav__desktop"><!-- VERIFIE -->
+         <div class="logo">Lucas Gerard</div>
+         <div>
+            <ul class="nav__links">
+               <li><a href="/" style="font-weight: bold;">Menu</a></li>
+               <li><a href="/experience.html">CV</a></li>
+               <li><a href="/project.html">Projets</a></li>
+               <li><a href="/contact.html">Contact</a></li>
+            </ul>
+         </div>
+      </nav>
+
+      <section id="profile">
+         <div class="section__text">
+            <p class="section__text__p1">Salut, je m'appelle</p>
+            <h1 class="title" data-value="LUCAS GERARD">LUCAS GERARD</h1>
+
+            <p class="section__text__p2">
+              <span>Et bienvenue sur mon portfolio</span>
+              <span><br/>Je suis </span>
+              <span class="line__trought__animation"></span>
+              <span class="devFullS">développeur fullstack</span>
+              <span>étudiant.</span>
+            </p>
+
+            <div id="socials-container">
+               <img
+                  src="./public/github.png"
+                  alt="Github"
+                  title="Lien Github"
+                  class="icon"
+                  onclick="window.open('https://github.com/LucasGPro', '_blank')"
+                  />
+               <img
+                  src="./public/linkedin.png"
+                  alt="Profil LinkedIn"
+                  title="Lien LinkedIn"
+                  class="icon"
+                  onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')"
+                  />
+            </div>
+         </div>
+         <audio id="son" src="public/myNameIsSound.mp3"></audio>
+         <p class="path__profile"id="myNameIs" onmouseenter="playSound()"> L:\Menu\MyNameIs</p>
+      </section>
+      <section id="about">
+         <h1 class="title">A propos</h1>
+         <div class="section-container">
+            <div class="section__pic-container">
+               <img
+                  src="./public/about-pic.jpg"
+                  alt="Profile picture"
+                  class="about-pic"
+                  />
+            </div>
+            <div class="about-details-container">
+               <div class="text-container">
+                  <p>
+                     Salut ! Je m'apelle Lucas, passionné d'informatique qui s'est plongé dans ce domaine très tôt, 
+                     en réalisant divers projets personnels avant même d'entamer des études dans ce domaine.<br />
+                     <br />Ces expériences m'ont apporté des compétences techniques solides et ont renforcé 
+                     ma détermination à explorer ce domaine en constante évolution. <!-- Titulaire d'un bac 
+                     en <abbr title="Numérique et Sciences de l'Informatique">NSI</abbr> et Mathématiques, 
+                     je poursuis mes études à Paris Ynov Campus, toujours animé par ma passion et ma volonté 
+                     de progresser. -->
+                  </p>
+                  <button
+                     class="btn btn-color-2"
+                     onclick="window.open('public/CV_GERARD_Lucas.pdf')"
+                     >
+                  ↗ Page CV
+                  </button>
+               </div>
+            </div>
+         </div>
+         <p class="path__experience"> L:\Menu\AboutMe</p>
+      </section>
+      <section id="experience">
+         <h1 class="title">Curriculum vitae</h1>
+         <div class="experience-details-container">
+            <div class="about-containers">
+               <div class="details-container">
+                  <h2 class="experience-sub-title">Compétences informatiques</h2>
+                  <div class="article-container">
+                     <article>
+                        <img
+                           src="./public/icon/html_logo.png"
+                           alt="Experience icon"
+                           class="icon"
+                           />
+                        <div>
+                           <h3>HTML</h3>
+                           <p>Intermédiaire</p>
+                        </div>
+                     </article>
+                     <article>
+                        <img
+                           src="./public/icon/css_logo.png"
+                           alt="Experience icon"
+                           class="icon"
+                           />
+                        <div>
+                           <h3>CSS</h3>
+                           <p>Intermédiaire</p>
+                        </div>
+                     </article>
+                     <article>
+                        <img
+                           src="./public/icon/js_logo.png"
+                           alt="Experience icon"
+                           class="icon"
+                           />
+                        <div>
+                           <h3>JavaScript</h3>
+                           <p>Novice</p>
+                        </div>
+                     </article>
+                     <article>
+                        <img
+                           src="./public/icon/golang_logo.png"
+                           alt="Experience icon"
+                           class="icon"
+                           />
+                        <div>
+                           <h3>Golang</h3>
+                           <p>Intermédiaire</p>
+                        </div>
+                     </article>
+                     <article>
+                        <img
+                           src="./public/icon/python_logo.png"
+                           alt="Experience icon"
+                           class="icon"
+                           />
+                        <div>
+                           <h3>Pyhton</h3>
+                           <p>Intermédiaire</p>
+                        </div>
+                     </article>
+                     <article>
+                        <img
+                           src="./public/icon/java_logo.png"
+                           alt="Experience icon"
+                           class="icon"
+                           />
+                        <div>
+                           <h3>Java</h3>
+                           <p>Intermédiaire</p>
+                        </div>
+                     </article>
+                     <!-- <article>
+                        <img
+                           src="./public/icon/sql_logo.png"
+                           alt="Experience icon"
+                           class="icon"
+                           />
+                        <div>
+                           <h3>SQL</h3>
+                           <p>Novice</p>
+                        </div>
+                     </article> -->
+                  </div>
+               </div>
+               <div class="details-container">
+                  <h2 class="experience-sub-title">Autre</h2>
+                  <div class="article-container">
+                     <article>
+                        <img
+                           src="./public/icon/figma_logo.png"
+                           alt="Experience icon"
+                           class="icon"
+                           />
+                        <div>
+                           <h3>Figma</h3>
+                           <p>Intermédiaire</p>
+                        </div>
+                     </article>
+                     <article>
+                        <img
+                           src="./public/icon/infra_logo.png"
+                           alt="Experience icon"
+                           class="icon"
+                           />
+                        <div>
+                           <h3>Infrastructure réseaux</h3>
+                           <p>Novice</p>
+                        </div>
+                     </article>
+                     <article>
+                        <img
+                           src="./public/icon/git_logo.png"
+                           alt="Experience icon"
+                           class="icon"
+                           />
+                        <div>
+                           <h3>Git</h3>
+                           <p>Intermediate</p>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+            </div>
+            <div class="text-containerCV">
+               <p>
+                  J'ai pu développer ses nombreuses compétences à travers une multitude de projets et d'expériences.<br/><br/>
+                  J'ai entrepris des projets qui m'ont permis d'explorer différents langages et technologies. 
+                  De la conception de sites web à la création d'applications, de nombreux projets scolaires et personnels.<br/><br/>
+
+                  Cette évolution m'a permis de développer non seulement mes compétences techniques, mais aussi mes compétences 
+                  transversales telles que la collaboration en équipe, la communication efficace et le respect des normes et des délais. 
+                  Je suis convaincu que cette combinaison de compétences techniques et de bonnes pratiques professionnelles me prépare 
+                  parfaitement pour les défis à venir dans le domaine du développement logiciel.
+               </p>
+            </div>
+         </div>
+         <p class="path__experience2"> L:\Menu\MyResume</p>
+      </section>
+      <section id="projects">
+         <h1 class="title">Projets</h1>
+         <div class="experience-details-container">
+             <div class="about-containers">
+                 <!-- Project 1 -->
+                 <div class="details-container color-container">
+                     <div class="container">
+                         <div class="slider-wrapper">
+                             <div class="slider">
+                                 <div class="slide" id="p1Slide1">
+                                     <img src="./public/projet1.1.png" alt="Project 1" />
+                                 </div>
+                                 <div class="slide" id="p1Slide2">
+                                     <img src="./public/projet1.2.png" alt="Project 1" />
+                                 </div>
+                             </div>
+                             <div class="slider-nav">
+                                 <button class="nav-item" onclick="changeSlide(0)"></button>
+                                 <button class="nav-item" onclick="changeSlide(1)"></button>
+                             </div>
+                         </div>
+                     </div>
+                     <h2 class="experience-sub-title project-title">Steve little adventure</h2>
+                     <div class="btn-container">
+                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">
+                             Voir le projet
+                         </button>
+                     </div>
+                 </div>
+                 <!-- Project 2 -->
+                 <div class="details-container color-container">
+                     <div class="container">
+                         <div class="slider-wrapper">
+                             <div class="slider">
+                                 <div class="slide">
+                                     <img src="./public/projet2.1.png" alt="Project 2" />
+                                 </div>
+                                 <div class="slide">
+                                     <img src="./public/projet2.2.png" alt="Project 2" />
+                                 </div>
+                             </div>
+                             <div class="slider-nav">
+                                 <button class="nav-item" onclick="changeSlide(2)"></button>
+                                 <button class="nav-item" onclick="changeSlide(3)"></button>
+                             </div>
+                         </div>
+                     </div>
+                     <h2 class="experience-sub-title project-title">Chroma Survival</h2>
+                     <div class="btn-container">
+                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">
+                             Voir le projet
+                         </button>
+                     </div>
+                 </div>
+                 <!-- Project 3 -->
+                 <div class="details-container color-container">
+                     <div class="container">
+                         <div class="slider-wrapper">
+                             <div class="slider">
+                                 <div class="slide">
+                                     <img src="./public/projet3.1.png" alt="Project 3" />
+                                 </div>
+                                 <div class="slide">
+                                     <img src="./public/projet3.2.png" alt="Project 3" />
+                                 </div>
+                             </div>
+                             <div class="slider-nav">
+                                 <button class="nav-item" onclick="changeSlide(4)"></button>
+                                 <button class="nav-item" onclick="changeSlide(5)"></button>
+                             </div>
+                         </div>
+                     </div>
+                     <h2 class="experience-sub-title project-title">Iby Application</h2>
+                     <div class="btn-container">
+                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">
+                             Voir le projet
+                         </button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <p class="path__projet"> L:\Menu\ MyProjects</p>
+     </section>
+     
+      <section id="contact">
+         <h1 class="title">Contact</h1>
+         <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+               <img
+                  src="./public/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                  />
+               <p><a href="mailto:examplemail@gmail.com">glucaspro@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+               <img
+                  src="./public/linkedin.png"
+                  alt="LinkedIn icon"
+                  class="icon contact-icon"
+                  />
+               <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <p>Copyright &#169; 2024 Lucas Gerard.</p>
+      </footer>
+      <script src="script.js"></script>
+   </body>
+</html>
