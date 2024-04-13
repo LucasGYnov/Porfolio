@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <!-- Balises meta pour la configuration du document -->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Portfolio project"/>
+      <meta name="keywords" content="portfolio, projet"/>
+      <meta name="author" content="Lucas Gerard" />
+      <meta name="copyright" content="Copyright owner" />
+      <!-- Favicon -->
+      <link rel ="icon" href = "/public/logo.jpg" type = "image/x-icon">
+      <!-- Feuilles de style -->
+      <link rel="stylesheet" href="style.css">
+      <!-- <link rel="stylesheet" href="mediaqueries.css"> -->
+      <!-- Polices Google --> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap">
+      <title>Portfolio menu page</title>
+   </head>
+   <body>
+      <nav id="desktop_device">
+         <div class="logo-site" onclick="window.location.href='/'">Lucas Gerard</div>
+         <div>
+            <ul class="different-pages">
+               <li><a href="/" title="Menu principal">Menu</a></li>
+               <li><a href="/cv.html" style="font-weight: 600;" title="Page du CV">CV</a></li>
+               <li><a href="/projets.html" title="Page des projets">Projets</a></li>
+               <li><a href="/contact.html" title="Page de mes contacts">Contact</a></li>
+            </ul>
+         </div>
+      </nav>
+      <section id="cv-section">
+         <h1 class="title">Curriculum vitae</h1>
+         <div class="cv-informations">
+         <div class="text-CV">
+            <br>
+            <h1 style="font-size: 2rem;">À propos de moi</h1>
+            <ul>
+               <li style="list-style: none; text-indent: 20px; margin-left: 1rem; margin-top: 0.2rem;">
+                  Je suis une personne motivée et dynamique, toujours avide de nouvelles expériences et prête à relever de nouveaux défis. Doté d'un esprit curieux et d'une volonté d'apprendre constante, je suis passionné par l'exploration de domaines variés et par l'acquisition de connaissances. Mon engagement envers l'excellence et mon souci du détail guident mes actions dans tout ce que j'entreprends. En tant qu'individu autonome et responsable, je m'efforce constamment de donner le meilleur de moi-même dans chaque situation. Ma capacité à m'adapter rapidement, combinée à ma détermination, me permettent de faire face aux défis avec résilience et créativité. À travers mes expériences et mes interactions, je cherche toujours à créer un impact positif et à contribuer de manière significative à mon environnement.
+                  <!-- J'ai pu développer ses nombreuses compétences à travers une multitude de projets et d'expériences.
+                     J'ai entrepris des projets qui m'ont permis d'explorer différents langages et technologies. De la conception de sites web à la création d'applications, de nombreux projets scolaires et personnels.
+                     
+                     Cette évolution m'a permis de développer non seulement mes compétences techniques, mais aussi mes compétences transversales telles que la collaboration en équipe, la communication efficace et le respect des normes et des délais. Je suis convaincu que cette combinaison de compétences techniques et de bonnes pratiques professionnelles me prépare parfaitement pour les défis à venir dans le domaine du développement logiciel.
+                     -->
+               </li>
+            </ul>
+            <br/>
+            <div>
+               <h2 style="margin-left: 1rem;">Formation</h2>
+               <ul>
+                  <li style="margin-left: 3rem;">
+                     <strong>Baccalauréat général (2020 - 2023) :</strong><br>
+                     J'ai obtenu mon diplôme avec une spécialité en Numérique, Sciences de l'Informatique et Mathématiques, démontrant ainsi mon intérêt pour les domaines technologiques.
+                  </li>
+                  <li style="margin-left: 3rem;">
+                     <strong>Diplôme National du Brevet (2015 - 2019) :</strong><br>
+                     Mention très bien.
+                  </li>
+               </ul>
+               <br/>
+            </div>
+            <div>
+               <h2 style="margin-left: 1rem;">Expériences</h2>
+               <ul>
+                  <li style="margin-left: 3rem;">
+                     <strong>Rénovation de logements à Douai (2015 - 2020) :</strong><br>
+                     Participation à plusieurs chantiers d'aménagement de logements, incluant le bricolage, la peinture, la plâtrerie et l'entretien des espaces verts.
+                  </li>
+                  <li style="margin-left: 3rem;">
+                     <strong>Projets annexes personnels (2015 - Présent) :</strong><br>
+                     En tant que créateur passionné, j'ai lancé une chaîne YouTube où je gère la direction artistique, le tournage et le montage de vidéos. De plus, j'ai développé une application et un site web personnel pour mettre en valeur mes compétences en UI/UX, HTML, CSS et JavaScript.
+                  </li>
+                  <li style="margin-left: 3rem;">
+                     <strong>Job étudiant (2015 - Présent) :</strong><br>
+                     J'ai acquis de l'expérience en tant que babysitter, en dispensant des cours particuliers et en aidant aux devoirs, démontrant ainsi ma capacité à gérer plusieurs responsabilités.
+                  </li>
+                  <li style="margin-left: 3rem;">
+                     <strong>Club de basketball de Champs-sur-Marne (2015 - Présent) :</strong><br>
+                     Entraîneur et arbitre, j'ai encadré et enseigné les jeunes de 9 à 12 ans tout en assumant des responsabilités d'arbitrage, ce qui m'a permis de développer des compétences en gestion du stress et en travail d'équipe.
+                  </li>
+               </ul>
+               <br/>
+               <button
+                     class="btn btn-config " style="margin-bottom: 5rem"
+                     onclick="window.open('public/CV_GERARD_Lucas.pdf')"
+                     >
+                  ↗ Mon CV
+                  </button>
+            </div>
+         </div>
+         <div class="card-containers">
+            <div class="cards">
+               <h2 class="card-title">Compétences informatiques</h2>
+               <div class="card-content">
+                  <article>
+                     <img
+                        src="./public/icon/html_logo.png"
+                        alt="Icône HMTL"
+                        title="HMTL"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>HTML</h3>
+                        <p>Intermédiaire</p>
+                     </div>
+                  </article>
+                  <article>
+                     <img
+                        src="./public/icon/css_logo.png"
+                        alt="Icône CSS"
+                        title="CSS"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>CSS</h3>
+                        <p>Intermédiaire</p>
+                     </div>
+                  </article>
+                  <article>
+                     <img
+                        src="./public/icon/js_logo.png"
+                        alt="Icône JavaScript"
+                        title="JavaScript"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>JavaScript</h3>
+                        <p>Novice</p>
+                     </div>
+                  </article>
+                  <article>
+                     <img
+                        src="./public/icon/golang_logo.png"
+                        alt="Icône Golang"
+                        title="Golang"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>Golang</h3>
+                        <p>Intermédiaire</p>
+                     </div>
+                  </article>
+                  <article>
+                     <img
+                        src="./public/icon/python_logo.png"
+                        alt="Icône Python"
+                        title="Python"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>Pyhton</h3>
+                        <p>Intermédiaire</p>
+                     </div>
+                  </article>
+                  <article>
+                     <img
+                        src="./public/icon/java_logo.png"
+                        alt="Icône Java"
+                        title="Java"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>Java</h3>
+                        <p>Intermédiaire</p>
+                     </div>
+                  </article>
+                  <!-- <article>
+                     <img
+                        src="./public/icon/sql_logo.png"
+                        alt="Icône SQL"
+                        title="SQL"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>SQL</h3>
+                        <p>Novice</p>
+                     </div>
+                     </article> -->
+               </div>
+            </div>
+            <div class="cards">
+               <h2 class="card-title">Autre</h2>
+               <div class="card-content">
+                  <article>
+                     <img
+                        src="./public/icon/figma_logo.png"
+                        alt="Icône Figma"
+                        title="Figma"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>Figma</h3>
+                        <p>Intermédiaire</p>
+                     </div>
+                  </article>
+                  <article>
+                     <img
+                        src="./public/icon/infra_logo.png"
+                        alt="Icône infrastructure et réseaux"
+                        title="Infrastructure et réseaux"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>Infrastructure réseaux</h3>
+                        <p>Novice</p>
+                     </div>
+                  </article>
+                  <article>
+                     <img
+                        src="./public/icon/git_logo.png"
+                        alt="Icône Git"
+                        title="Git"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>Git</h3>
+                        <p>Intermediate</p>
+                     </div>
+                  </article>
+                  <div class="skill-container">
+                     <h3>Suite Microsoft Office & Google</h3>
+                     <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                     </div>
+                  </div>
+                  <div class="skill-container">
+                     <h3>Utilisation des réseaux sociaux</h3>
+                     <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                     </div>
+                  </div>
+                  <div class="skill-container">
+                     <h3>Suite Adobe</h3>
+                     <div class="skill-bar">
+                        <div class="skill-level" style="width: 65%;"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="cards">
+               <h2 class="card-title">Compétence linguistiques</h2>
+               <div class="card-content">
+                  <article>
+                     <img
+                        src="./public/icon/uk_flag.png"
+                        alt="Icône drapeau langue Anglais"
+                        title="Drapeau United Kingdom"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>Anglais&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                        <p>B2-C1</p>
+                     </div>
+                  </article>
+                  <article>
+                     <img
+                        src="./public/icon/de_flag.png"
+                        alt="Icône drapeau langue Allemand"
+                        title="Drapeau Allemagne"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>Allemand</h3>
+                        <p>B1</p>
+                     </div>
+                  </article>
+                  <article>
+                     <img
+                        src="./public/icon/it_flag.png"
+                        alt="Icône drapeau Langue Italien"
+                        title="Drapeau Italie"
+                        class="icon"
+                        />
+                     <div>
+                        <h3>Italien&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                        <p>A2</p>
+                     </div>
+                  </article>
+               </div>
+            </div>
+         </div>
+         <p class="path-cv"> L:\cv\MyResume</p>
+      </section>
+      <section id="contact-section">
+         <h1 class="title">Contact</h1>
+         <div class="contact-information-container">
+            <div class="contact-information">
+               <img
+                  src="./public/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                  />
+               <p><a href="mailto:examplemail@gmail.com">glucaspro@gmail.com</a></p>
+            </div>
+            <div class="contact-information">
+               <img
+                  src="./public/linkedin.png"
+                  alt="LinkedIn icon"
+                  class="icon contact-icon"
+                  />
+               <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <p>Copyright &#169; 2024 Lucas Gerard.</p>
+      </footer>
+   </body>
+</html>
