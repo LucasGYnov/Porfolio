@@ -446,6 +446,34 @@ article .icon {
   border-radius: 2rem;
 }
 
+.projects-effect-page {
+  border-color: rgb(163, 163, 163);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 2rem;
+  width: 75rem;
+  height: 30rem;
+  margin-bottom: 5rem;
+}
+
+.card-containers-page {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.container-page {
+  position: relative;
+  padding: 2rem;
+  transform: scale(0.4);
+  top:-37%;
+  right: 30%;
+}
+
 .project-img {
   border-radius: 2rem;
   width: 90%;
@@ -453,6 +481,11 @@ article .icon {
 }
 
 .project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-title-page {
   margin: 1rem;
   color: black;
 }
@@ -473,6 +506,13 @@ article .icon {
   overflow: hidden; /* Ajout pour cacher le débordement */
   transform: scale(1.2);
 }
+
+.description{
+  position: relative;
+  width: 50%;
+  transform: translateY(-320%) translateX(90%) scale(1.2);
+}
+
 
 .slider {
 display: flex;
@@ -527,7 +567,7 @@ opacity: 1;
   height: 70vh;
 }
 
-.contact-information-container { /* Remplacement de l'ID */
+.contact-information-container { 
   display: flex;
   justify-content: center;
   border-radius: 2rem;
@@ -538,7 +578,7 @@ opacity: 1;
   padding: 0.5rem;
 }
 
-.contact-information { /* Remplacement de l'ID */
+.contact-information { 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -564,6 +604,22 @@ opacity: 1;
   right: -15.3%;
   transform: rotate(90deg);
 }
+
+.path-projects-page{
+  position: absolute;
+  top: 250%;
+  right: -1.3%; /* -15.3 */
+  transform: rotate(90deg);
+  margin-bottom: 10rem;
+}
+
+.qrcode {
+  width: 10%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 150%);
+}
+
 
 
 /* FOOTER SECTION */

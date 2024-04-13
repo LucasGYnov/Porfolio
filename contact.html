@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <!-- Balises meta pour la configuration du document -->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Portfolio project"/>
+      <meta name="keywords" content="portfolio, projet"/>
+      <meta name="author" content="Lucas Gerard" />
+      <meta name="copyright" content="Copyright owner" />
+      <!-- Favicon -->
+      <link rel ="icon" href = "/public/logo.jpg" type = "image/x-icon">
+      <!-- Feuilles de style -->
+      <link rel="stylesheet" href="style.css">
+      <!-- <link rel="stylesheet" href="mediaqueries.css"> -->
+      <!-- Polices Google --> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap">
+      <title>Portfolio menu page</title>
+   </head>
+   <body>
+      <nav id="desktop_device">
+         <div class="logo-site" onclick="window.location.href='/'">Lucas Gerard</div>
+         <div>
+            <ul class="different-pages">
+               <li><a href="/" title="Menu principal">Menu</a></li>
+               <li><a href="/cv.html" title="Page du CV">CV</a></li>
+               <li><a href="/projets.html" title="Page des projets">Projets</a></li>
+               <li><a href="/contact.html" style="font-weight: 600;" title="Page de mes contacts">Contact</a></li>
+            </ul>
+         </div>
+      </nav>
+      <section id="contact-section">
+         <h1 class="title">Contact</h1>
+         <div class="contact-information-container">
+            <div class="contact-information">
+               <img
+                  src="./public/linkedin.png"
+                  alt="LinkedIn icon"
+                  class="icon contact-icon"
+                  />
+               <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+            <div class="contact-information">
+               <img
+                  src="./public/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                  />
+               <p><a href="mailto:examplemail@gmail.com">glucaspro@gmail.com</a></p>
+            </div>
+            <div class="contact-information">
+                <img
+                   src="./public/github.png"
+                   alt="Icône GitHub"
+                   class="icon contact-icon email-icon"
+                   />
+                <p><a href="https://github.com/LucasGPro">LucasGPro</a></p>
+             </div>
+         </div>
+         <img src="public/QRCODE.png" class="qrcode" alt="QRCode Contact">
+      </section>
+   </body>
+</html>
