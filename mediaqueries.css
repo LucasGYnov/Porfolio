@@ -31,11 +31,11 @@
   #hamburger-nav {
     display: flex;
   }
+  
   #cv-section,
   .cv-informations {
     margin-top: 2rem;
   }
-
 
   section,
   .main-container{
@@ -48,10 +48,56 @@
   .about-informations {
     margin-top: 0;
   }
+
+  .main-container-image {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    transform: translateY(20%);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #desktop_device {
+    display: none;
+  }
+
+  #cv-section,
+  .cv-informations {
+    margin-top: 2rem;
+  }
+
+  section,
+  .main-container{
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+
+  .about-informations {
+    margin-top: 0;
+  }
+
+  .main-container-image {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: auto 0;
+  }
+
+  .text-informations{
+    font-size: 1rem;
+  }
+
+  .container-texts{
+    transform: scale(0.9);
+  }
+
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
+  #contact-section,
   footer {
     height: 40vh;
   }
@@ -65,11 +111,6 @@
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
-  }
-  .about-containers,
-  .contact-info-upper-container,
-  .btn-container {
-    flex-wrap: wrap;
   }
   .contact-info-container {
     margin: 0;
@@ -107,6 +148,14 @@
   .about-informations {
     display: block;
     display: flex;
+  }
+
+  .line-trought-animation{
+    display: none;
+  }
+
+  .line-trought{
+    text-decoration: line-through;
   }
 }
 

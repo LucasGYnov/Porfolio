@@ -314,9 +314,11 @@ section {
 
 .about-image {
   border-radius: 2rem;
+  transform: translateY(-20%);
 }
 
 .text-informations{
+  margin:0.9rem;
   font-size: 1.7rem;
 }
 
@@ -617,9 +619,10 @@ opacity: 1;
 .qrcode {
   width: 10%;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, 150%);
+  left: 90%;
+  transform: translate(-50%, 30%);
 }
+
 
 
 
