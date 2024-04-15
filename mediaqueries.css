@@ -10,6 +10,18 @@
   #projects-section {
     height: fit-content;
   }
+
+  .text-informations {
+    font-size: 20px;
+  }
+
+  .path-welcome,
+  .path-about,
+  .path-cv,
+  .path-projects,
+  .path-projects-page{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -19,30 +31,21 @@
   #hamburger-nav {
     display: flex;
   }
-  #experience,
-  .experience-details-container {
+  #cv-section,
+  .cv-informations {
     margin-top: 2rem;
   }
-  #profile,
-  .section-container {
-    display: block;
-  }
-  .arrow {
-    display: none;
-  }
+
+
   section,
-  .section-container {
+  .main-container{
     height: fit-content;
   }
   section {
     margin: 0 5%;
   }
-  .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
-  }
-  .about-containers {
+
+  .about-informations {
     margin-top: 0;
   }
 }
@@ -99,6 +102,11 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  .about-informations {
+    display: block;
+    display: flex;
   }
 }
 
