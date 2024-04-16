@@ -121,6 +121,7 @@ nav{
 /* HAMBURGER MENU */
 #hamburger-nav {
   display: none;
+
 }
 
 .hamburger-menu {
@@ -243,6 +244,11 @@ section {
 }
 
 .title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.titleWE {
   font-size: 3rem;
   text-align: center;
 }

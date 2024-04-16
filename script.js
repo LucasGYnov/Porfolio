@@ -1,6 +1,5 @@
 function toggleMenu() {
   const menu = document.querySelector(".menu-links");
-  // const icon = document.querySelector(".hamburger-icon");
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
@@ -37,7 +36,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     function startAnimation() {
       let iteration = 0;
-      const target = document.querySelector("h1");
+      const target = document.querySelector('.title');
 
       clearInterval(interval);
 

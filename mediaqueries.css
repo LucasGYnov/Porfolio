@@ -22,6 +22,10 @@
   .path-projects-page{
     display: none;
   }
+
+  .projects-effect-page{
+    transform: scale(0.7) translateX(-20%);
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -30,6 +34,7 @@
   }
   #hamburger-nav {
     display: flex;
+    z-index: 100;
   }
   
   #cv-section,
@@ -94,7 +99,33 @@
     transform: scale(0.9);
   }
 
+  .projects-effect-page{
+    transform: scale(0.6) translateX(-30%);
+  }
+
 }
+
+@media screen and (max-width: 800px) {
+  .projects-effect-page{
+    transform: scale(0.5) translateX(-50%);
+  }
+
+  .card-containers{
+    display:block;
+  }
+  .cards{
+    margin-bottom: 12%;
+  }
+
+  .qrcode {
+    width: 20%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    margin-top: 10%;
+  }
+}
+
 
 @media screen and (max-width: 600px) {
   #contact-section,
@@ -157,5 +188,22 @@
   .line-trought{
     text-decoration: line-through;
   }
+
+  .projects-effect-page{
+    transform: scale(0.38) translateX(-90%);
+    margin-bottom: -80%;
+    margin-top: -25%;
+
+  }
+
+  .contact-information-container{
+    transform: scale(0.8) translateX(-10%);
+  }
+
+  .text-informations{
+    font-size: smaller;
+    margin-left: -25%;
+  }
+  
 }
 
