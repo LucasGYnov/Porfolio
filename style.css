@@ -22,7 +22,6 @@ body {
 }
 
 
-
 p {
 	color: var(--color-description-text);
 }
@@ -54,13 +53,11 @@ nav {
 	height: 12vh;
 }
 
-/* ICONS */
 .icon {
 	cursor: pointer;
 	height: 2rem;
 }
 
-/* BUTTONS */
 .btn-container {
 	display: flex;
 	justify-content: center;
@@ -123,7 +120,7 @@ nav {
 	cursor: default;
 }
 
-/* HAMBURGER MENU */
+
 #hamburger-nav {
 	display: none;
 }
@@ -179,7 +176,7 @@ nav {
 }
 
 
-/* SECTIONS */
+
 
 section {
 	padding: 4vh;
@@ -189,7 +186,7 @@ section {
 	min-height: fit-content;
 }
 
-/* Welcome SECTION */
+
 #welcome-section {
 	display: flex;
 	justify-content: center;
@@ -281,8 +278,6 @@ section {
 }
 
 
-/* ABOUT SECTION */
-
 #about-section {
 	position: relative;
 }
@@ -311,7 +306,6 @@ section {
 }
 
 
-/* EXPERIENCE SECTION */
 
 #cv-section {
 	position: relative;
@@ -426,7 +420,6 @@ article {
 	font-size: 1rem;
 }
 
-/* PROJECTS SECTION */
 
 #projects-section {
 	position: relative;
@@ -506,7 +499,6 @@ article {
 	max-width: 48rem;
 	margin: 0 auto;
 	overflow: hidden;
-	/* Ajout pour cacher le débordement */
 	transform: scale(1.2);
 }
 
@@ -520,11 +512,9 @@ article {
 .slider {
 	display: flex;
 	overflow-x: hidden;
-	/* Modifier de auto à hidden */
 	scroll-snap-type: x mandatory;
 	scroll-behavior: smooth;
 	width: 100%;
-	/* Ajustement pour s'adapter à la largeur */
 }
 
 .slide {
@@ -562,8 +552,6 @@ article {
 .slider-nav .nav-item.active {
 	opacity: 1;
 }
-
-/* CONTACT */
 
 #contact-section {
 	display: flex;
@@ -636,7 +624,6 @@ article {
 }
 
 
-/* FOOTER SECTION */
 
 footer {
 	height: 26vh;
