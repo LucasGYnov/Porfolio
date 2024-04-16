@@ -64,6 +64,16 @@ function playSound() {
   audio.play();
 }
 
+function playSound() {
+  var audio = document.getElementById("my-name-is-sound");
+  audio.play();
+}
+
+function baisserSon() {
+  var audio = document.getElementById("my-name-is-sound");
+  audio.volume = audio.volume * 0.75;
+}
+
 function changeSlide(index) {
   var slides = document.querySelectorAll('.slide');
   slides[index].scrollIntoView({ behavior: 'smooth', block: 'nearest' });

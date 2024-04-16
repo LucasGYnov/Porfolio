@@ -1,209 +1,227 @@
 @media screen and (max-width: 1400px) {
-  #welcome-section {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
-  .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact-section,
-  #projects-section {
-    height: fit-content;
-  }
+	#welcome-section {
+		height: 83vh;
+		margin-bottom: 6rem;
+	}
 
-  .text-informations {
-    font-size: 20px;
-  }
+	.about-containers {
+		flex-wrap: wrap;
+	}
 
-  .path-welcome,
-  .path-about,
-  .path-cv,
-  .path-projects,
-  .path-projects-page{
-    display: none;
-  }
+	#contact-section,
+	#projects-section {
+		height: fit-content;
+	}
 
-  .projects-effect-page{
-    transform: scale(0.7) translateX(-20%);
-  }
+	.text-informations {
+		font-size: 20px;
+	}
+
+	.path-welcome,
+	.path-about,
+	.path-cv,
+	.path-projects,
+	.path-projects-page {
+		display: none;
+	}
+
+	.projects-effect-page {
+		transform: scale(0.7) translateX(-20%);
+	}
 }
 
 @media screen and (max-width: 1200px) {
-  #desktop_device {
-    display: none;
-  }
-  #hamburger-nav {
-    display: flex;
-    z-index: 100;
-  }
-  
-  #cv-section,
-  .cv-informations {
-    margin-top: 2rem;
-  }
+	#desktop_device {
+		display: none;
+	}
 
-  section,
-  .main-container{
-    height: fit-content;
-  }
-  section {
-    margin: 0 5%;
-  }
+	#hamburger-nav {
+		display: flex;
+		z-index: 100;
+	}
 
-  .about-informations {
-    margin-top: 0;
-  }
+	#cv-section,
+	.cv-informations {
+		margin-top: 2rem;
+	}
 
-  .main-container-image {
-    display: flex;
-    height: 300px;
-    width: 300px;
-    transform: translateY(20%);
-  }
+	section,
+	.main-container {
+		height: fit-content;
+	}
+
+	section {
+		margin: 0 5%;
+	}
+
+	.about-informations {
+		margin-top: 0;
+	}
+
+	.main-container-image {
+		display: flex;
+		height: 300px;
+		width: 300px;
+		transform: translateY(20%);
+	}
 }
 
 @media screen and (max-width: 1000px) {
-  #desktop_device {
-    display: none;
-  }
+	#desktop_device {
+		display: none;
+	}
 
-  #cv-section,
-  .cv-informations {
-    margin-top: 2rem;
-  }
+	#cv-section,
+	.cv-informations {
+		margin-top: 2rem;
+	}
 
-  section,
-  .main-container{
-    height: fit-content;
-  }
-  section {
-    margin: 0 5%;
-  }
+	section,
+	.main-container {
+		height: fit-content;
+	}
 
-  .about-informations {
-    margin-top: 0;
-  }
+	section {
+		margin: 0 5%;
+	}
 
-  .main-container-image {
-    display: flex;
-    height: 200px;
-    width: 200px;
-    margin: auto 0;
-  }
+	.about-informations {
+		margin-top: 0;
+	}
 
-  .text-informations{
-    font-size: 1rem;
-  }
+	.main-container-image {
+		display: flex;
+		height: 200px;
+		width: 200px;
+		margin: auto 0;
+	}
 
-  .container-texts{
-    transform: scale(0.9);
-  }
+	.text-informations {
+		font-size: 1rem;
+	}
 
-  .projects-effect-page{
-    transform: scale(0.6) translateX(-30%);
-  }
+	.container-texts {
+		transform: scale(0.9);
+	}
+
+	.projects-effect-page {
+		transform: scale(0.6) translateX(-30%);
+	}
 
 }
 
 @media screen and (max-width: 800px) {
-  .projects-effect-page{
-    transform: scale(0.5) translateX(-50%);
-  }
+	.projects-effect-page {
+		transform: scale(0.5) translateX(-50%);
+	}
 
-  .card-containers{
-    display:block;
-  }
-  .cards{
-    margin-bottom: 12%;
-  }
+	.card-containers {
+		display: block;
+	}
 
-  .qrcode {
-    width: 20%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 30%);
-    margin-top: 10%;
-  }
+	.cards {
+		margin-bottom: 12%;
+	}
+
+	.qrcode {
+		width: 20%;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, 30%);
+		margin-top: 10%;
+	}
 }
 
 
 @media screen and (max-width: 600px) {
-  #contact-section,
-  footer {
-    height: 40vh;
-  }
-  #profile {
-    height: 83vh;
-    margin-bottom: 0;
-  }
-  article {
-    font-size: 1rem;
-  }
-  footer nav {
-    height: fit-content;
-    margin-bottom: 2rem;
-  }
-  .contact-info-container {
-    margin: 0;
-  }
-  .contact-info-container p,
-  .nav__links li a {
-    font-size: 1rem;
-  }
-  .experience-sub-title {
-    font-size: 1.25rem;
-  }
-  .logo {
-    font-size: 1.5rem;
-  }
-  .nav__links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
-  }
-  .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
-  }
-  .section__text__p2 {
-    font-size: 1.25rem;
-  }
-  .title {
-    font-size: 2rem;
-  }
-  .text-container {
-    text-align: justify;
-  }
 
-  .about-informations {
-    display: block;
-    display: flex;
-  }
+	#contact-section,
+	footer {
+		height: 40vh;
+	}
 
-  .line-trought-animation{
-    display: none;
-  }
+	#profile {
+		height: 83vh;
+		margin-bottom: 0;
+	}
 
-  .line-trought{
-    text-decoration: line-through;
-  }
+	article {
+		font-size: 1rem;
+	}
 
-  .projects-effect-page{
-    transform: scale(0.38) translateX(-90%);
-    margin-bottom: -80%;
-    margin-top: -25%;
+	footer nav {
+		height: fit-content;
+		margin-bottom: 2rem;
+	}
 
-  }
+	.contact-info-container {
+		margin: 0;
+	}
 
-  .contact-information-container{
-    transform: scale(0.8) translateX(-10%);
-  }
+	.contact-info-container p,
+	.nav__links li a {
+		font-size: 1rem;
+	}
 
-  .text-informations{
-    font-size: smaller;
-    margin-left: -25%;
-  }
-  
+	.experience-sub-title {
+		font-size: 1.25rem;
+	}
+
+	.logo {
+		font-size: 1.5rem;
+	}
+
+	.nav__links {
+		flex-direction: column;
+		gap: 0.5rem;
+		text-align: center;
+	}
+
+	.section__pic-container {
+		width: auto;
+		height: 46vw;
+		justify-content: center;
+	}
+
+	.section__text__p2 {
+		font-size: 1.25rem;
+	}
+
+	.title {
+		font-size: 2rem;
+	}
+
+	.text-container {
+		text-align: justify;
+	}
+
+	.about-informations {
+		display: block;
+		display: flex;
+	}
+
+	.line-trought-animation {
+		display: none;
+	}
+
+	.line-trought {
+		text-decoration: line-through;
+	}
+
+	.projects-effect-page {
+		transform: scale(0.38) translateX(-90%);
+		margin-bottom: -80%;
+		margin-top: -25%;
+
+	}
+
+	.contact-information-container {
+		transform: scale(0.8) translateX(-10%);
+	}
+
+	.text-informations {
+		font-size: smaller;
+		margin-left: -25%;
+	}
+
 }
-
