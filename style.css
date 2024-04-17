@@ -18,6 +18,7 @@ html {
 body {
 	font-family: "Poppins", sans-serif;
 	/* background-image: linear-gradient(to right top, #ffb0dd, #f0a6df, #de9de1, #c896e4, #af90e6, #999bf0, #83a6f5, #6daff7, #72c7f9, #8ddcf8, #b2eef8, #dafffd); */
+	background-color: var(--color-white);
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
