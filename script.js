@@ -26,7 +26,6 @@ window.onload = function() {
 }
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
     let interval = null;
 
     document.addEventListener("DOMContentLoaded", () => {
